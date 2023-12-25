@@ -1,0 +1,92 @@
+.container img{
+    margin-top: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container{
+    /* justify-content: center; */
+    width: 300px;
+    height: 700px;
+    margin: 10px;
+    background-color: #ececec;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgb(189, 189, 189);
+}
+
+.container h3{
+    font-size: 20px;
+    color: #696969;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+        /* margin: 30px 80px 20px; */
+}
+
+
+.oldPrice{
+    
+    /* margin: 0 80px 20px; */
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    color: #918f8f;
+    /* margin: 20px 30px; */
+    font-size: 16px;
+    text-decoration: line-through;
+}
+
+.newPrice{
+    /* margin: 0 80px 20px; */
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    color: #dc3c3c;
+    /* margin: 20px 30px; */
+    font-size: 20px;
+    
+}
+
+
+
+.offer{
+    color: #ffffff;
+    margin-top: 3px;
+    font-size: 15px;
+    width: fit-content;
+}
+
+.offerContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(246, 45, 45);
+    height: 35px;
+}
+
+.down{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.viewDetails{
+    
+    width: 100%;
+    background-color: #ef2121;
+    border-style: none;
+    height: 40px;
+    border-radius: 6px;
+    color: rgb(237, 236, 236);
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.viewDetails:hover{
+    background-color: #be3939;
+}

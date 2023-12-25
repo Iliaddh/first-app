@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from "react";
+import Navbar from "./Components/Navbar.js";
+import  Banner from "./Components/Banner.js";
+import Cards from "./Components/Cards.js"
+import Card from "./Components/Card.js"
+import index from "./Components/index.css";
+import Filter from "./Components/filter.js"
+import SideBar from "./Components/sideBar.js"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component{
+ 
+  render(){
+    return(
+    
+      
+      <div className={index.container}>
+        
+        <Navbar/>
+        <p style={{fontWeight:"bold", margin:"70px 20px", fontSize:"40px"}}>Phones</p>
+        <Cards/>
+        <SideBar></SideBar>
+        
+        
+        
+      </div>
+      
+    )
+  }
 }
 
 export default App;
