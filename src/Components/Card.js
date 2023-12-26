@@ -8,6 +8,7 @@ const MyDiv1 = styled.div`
 display : block;
 justify-content: center;
 margin: 8px 12px;
+background-color:black;
 
 `
 
@@ -70,7 +71,6 @@ class Card extends Component {
                          <button className={styles.viewDetails}>View details</button>
                     </MyDiv2>
                 </MyDiv1>
-                <div>HELLELPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP</div>
             </div>
         );
     }
