@@ -22,7 +22,7 @@ class sideBar extends Component {
                 <hr></hr>
                 <br></br>
                 <br></br>
-                <p style={{fontWeight:"bold"}}>MANUFACTURER</p>
+                <p style={{fontWeight:"bold", height:"0"}}>MANUFACTURER</p>
                 <br></br>
                 <Filter phoneModel="Samsung"></Filter>
                 <br></br>

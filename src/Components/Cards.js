@@ -13,11 +13,15 @@ justify-content: space-around;
 margin: 60px;
 float: right;
 width: 80%;
-@media (max-width: 1200px){
+@media (max-width: 1600px){
     display: block;
-    padding: 20px
+    padding: 20px;
+    float: right;
+    margin: 0px 0px;
 
 }
+
+
 `
 
 class Cards extends Component {

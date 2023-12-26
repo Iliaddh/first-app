@@ -15,6 +15,7 @@
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 5px 5px 10px rgb(189, 189, 189);
+
 }
 
 .container h3{
@@ -89,4 +90,13 @@
 
 .viewDetails:hover{
     background-color: #be3939;
+}
+
+
+@media (max-width: 1600px){
+    .container{
+        margin-right: 0;
+        margin-bottom: 60px;
+        float: right;
+    }
 }
