@@ -22,7 +22,7 @@ class App extends Component{
         <SideBar></SideBar>
         
         
-        
+        <p>HELOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO</p>
       </div>
       
     )
