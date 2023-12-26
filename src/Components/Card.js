@@ -70,6 +70,7 @@ class Card extends Component {
                          <button className={styles.viewDetails}>View details</button>
                     </MyDiv2>
                 </MyDiv1>
+                <div>HELLELPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP</div>
             </div>
         );
     }
