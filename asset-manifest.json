@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/first-app/static/css/main.36bda7f9.css",
-    "main.js": "/first-app/static/js/main.b2e590b2.js",
+    "main.css": "/first-app/static/css/main.e96b8634.css",
+    "main.js": "/first-app/static/js/main.40d08c82.js",
     "static/media/Landing.png": "/first-app/static/media/Landing.7e5663a7b646ae58c388.png",
     "static/media/iPhone15Black.png": "/first-app/static/media/iPhone15Black.e357d823a06831c054c9.png",
     "static/media/apple15Green.png": "/first-app/static/media/apple15Green.42de73a2a41a228e3605.png",
@@ -9,11 +9,11 @@
     "static/media/apple14.png": "/first-app/static/media/apple14.bf3dd209ab070a9b6d75.png",
     "static/media/apple15Pro-max.png": "/first-app/static/media/apple15Pro-max.f5f3b0a8ae86876177ef.png",
     "index.html": "/first-app/index.html",
-    "main.36bda7f9.css.map": "/first-app/static/css/main.36bda7f9.css.map",
-    "main.b2e590b2.js.map": "/first-app/static/js/main.b2e590b2.js.map"
+    "main.e96b8634.css.map": "/first-app/static/css/main.e96b8634.css.map",
+    "main.40d08c82.js.map": "/first-app/static/js/main.40d08c82.js.map"
   },
   "entrypoints": [
-    "static/css/main.36bda7f9.css",
-    "static/js/main.b2e590b2.js"
+    "static/css/main.e96b8634.css",
+    "static/js/main.40d08c82.js"
   ]
 }
